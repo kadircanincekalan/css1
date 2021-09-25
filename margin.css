@@ -1,0 +1,53 @@
+.container{
+    background-color:coral;
+    /* width: 80%; */
+    /* margin: auto; */
+    /* border: 1px solid red; */
+}
+.div1{
+    width: 150px;
+    height: 150px;
+    background-color: aqua;
+    color: white;
+    font-size: 50px;
+    /* border: 5px solid red; */
+    margin: 100px;
+}
+.div2{
+    width: 150px;
+    height: 150px;
+    background-color:brown;
+    font-size: 50px;
+    color: white;
+    border: 5px solid blue;
+    /* margin-top: 50px; */
+    /* padding: 50px; */
+    box-sizing: border-box;
+}
+.div3{
+    width: 150px;
+    height: 150px;
+    background-color:fuchsia;
+    font-size: 50px;
+    color: white;
+    /* border: 5px solid greenyellow; */
+}
+
+Harvey  < 1 minute ago
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Margin</title>
+    <link rel="stylesheet" href="margin.css">
+</head>
+<body>
+    <div class="container">
+        <div class="div1">kutu1</div>
+        <div class="div2">kutu2</div>
+        <div class="div3">kutu3</div>
+    </div>
+</body>
+</html>
